@@ -1,0 +1,16 @@
+{
+  "name": "k6-test",
+  "version": "1.0.0",
+  "author": "Camila Fonseca",
+  "license": "ISC",
+  "scripts": {
+    "Loadtest": "k6 run src/scenarios/Loadtest.js",
+    "PerformanceTest": "k6 run src/scenarios/PerformanceTest.js",
+    "SmokeTest": "k6 run src/scenarios/SmokeTest.js",
+    "StressTest": "k6 run src/scenarios/StressTest.js"
+
+  },
+  "devDependencies": {
+    "@types/k6": "^0.44.1"
+  }
+}
